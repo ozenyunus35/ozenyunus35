@@ -31,12 +31,12 @@ MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 # ---------------------------------------------------------------- content
 
 NAME = "Yunus Ozen"
-POSITIONING = "Product-minded software engineer"
-TAGLINE = ("I take products from the first idea to the release,", "and write the code along the way.")
+POSITIONING = "AI Product Engineer"
+TAGLINE = ("I build AI-powered software products end to end,", "from the idea to production.")
 LOCATION = "İzmir, Türkiye"
 PILLARS = [
+    ("spark", "AI", "LLM apps · agents · automation"),
     ("target", "Product", "strategy · requirements · UX"),
-    ("board", "Project", "planning · coordination · delivery"),
     ("code", "Engineering", "web · mobile · open source"),
 ]
 @dataclass(frozen=True)
@@ -194,7 +194,7 @@ GLYPHS = {
     "briefcase": "M2 5h12v8H2zM6 5V3h4v2M2 9h12",
     "code": "M5 4L1 8l4 4M11 4l4 4-4 4M9.5 2.5l-3 11",
     "target": "M8 14.5A6.5 6.5 0 1 0 8 1.5a6.5 6.5 0 0 0 0 13zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM8 8.01V8",
-    "board": "M1.5 2.5h13v11h-13zM1.5 5.5h13M6 5.5v8M10.5 5.5v8",
+    "spark": "M8 1.5l1.6 4.9 4.9 1.6-4.9 1.6L8 14.5 6.4 9.6 1.5 8l4.9-1.6zM13 1.5v3M11.5 3h3",
 }
 
 
@@ -271,7 +271,7 @@ def hero(products: int, projects: list[str]) -> str:
     css = (".node{animation:node 3s ease-in-out infinite}@keyframes node{0%,100%{opacity:.55}50%{opacity:1}}"
            ".ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}"
            "@keyframes ring{from{transform:scale(.6);opacity:.8}to{transform:scale(2.2);opacity:0}}")
-    c = Card(1200, 560, f"{NAME}, {POSITIONING}: product, project and engineering", css)
+    c = Card(1200, 560, f"{NAME}, {POSITIONING}: AI, product and engineering", css)
 
     # the network: what goes in on the left becomes a product on the right
     rnd = random.Random(5)

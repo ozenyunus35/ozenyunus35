@@ -1,6 +1,6 @@
-<img src="assets/hero.svg" width="100%" alt="Yunus Ozen, product-minded software engineer: product, project and engineering">
+<img src="assets/hero.svg" width="100%" alt="Yunus Ozen, AI product engineer: AI, product and engineering">
 
-I'm a final-year Software Engineering student at Fırat University, based in İzmir. I work where product and engineering meet: I shape what a product should do, plan and coordinate the work, and build it with the team. [LinkedIn](https://www.linkedin.com/in/yunus-ozen/)
+I'm an AI product engineer based in İzmir and the co-founder of Codify. I build software products end to end: I shape what a product should do, lead the team that builds it and write the code, with AI in every step. I'm finishing my Software Engineering degree at Fırat University. [Portfolio](https://ozenyunus35.github.io/yunus-ozen-portfolio/) · [LinkedIn](https://www.linkedin.com/in/yunus-ozen/)
 
 ### Selected work
 
