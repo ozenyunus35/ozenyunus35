@@ -1,48 +1,58 @@
-# Yunus Emre Ozen
+<img src="assets/hero.svg" width="100%" alt="Yunus Ozen, product-minded software engineer: product, project and engineering">
 
-Software Engineering student focused on **Product & Project Management**, with hands-on experience across software development, UI/UX, product development and team coordination.
+I'm a final-year Software Engineering student at Fırat University, based in İzmir. I work where product and engineering meet: I shape what a product should do, plan and coordinate the work, and build it with the team. [LinkedIn](https://www.linkedin.com/in/yunus-ozen/)
 
-I enjoy taking part in the full product lifecycle — from defining an idea and planning the product to design, development and delivery.
+### Selected work
 
-## What I Work On
+<!-- selected-work:start -->
+<p>
+<a href="https://github.com/ozenyunus35/bisevk-case-study"><img src="assets/product-bisevk.svg" width="49%" alt="Bi-Sevk, Logistics marketplace"></a>
+<img src="assets/product-fmd.svg" width="49%" alt="FMD Eğitim Portalı, Education management panel">
+</p>
+<p>
+<img src="assets/product-eyfel.svg" width="49%" alt="Eyfel Kurye, Restaurant &amp; courier operations">
+<a href="https://github.com/ozenyunus35/tavuk-da-tavuk-case-study"><img src="assets/product-tavuk.svg" width="49%" alt="Tavuk da Tavuk, Website &amp; QR menu"></a>
+</p>
+<!-- selected-work:end -->
 
-- Product & Project Management
-- Web & Mobile Products
-- Product Development
-- UI/UX & User Flows
-- Software Development
-- System Design
-- Team Coordination
+### Recognition
 
-## Selected Projects
+<a href="https://github.com/ozenyunus35/WINK-TO-THE-FUTURE-INNOSOFT"><img src="assets/award.svg" width="100%" alt="NASA International Space Apps Challenge 2022: 1st place, Elazığ"></a>
 
-### Bi-Sevk
-A logistics platform connecting cargo owners with carriers.
+With team Innosoft I took 1st place in Elazığ at the 2022 NASA International Space Apps Challenge, with *Wink to the Future*, a Flutter app built in 48 hours. [Repository](https://github.com/ozenyunus35/WINK-TO-THE-FUTURE-INNOSOFT) · [Demo](https://youtu.be/xPwoLuFRq8w)
 
-I have been involved in the project from the early stages, taking responsibility across product strategy, project coordination, UI/UX, system design and development.
+### Toolbox
 
-`Product Management` `Project Management` `Web` `Mobile` `Logistics`
+<img src="assets/toolbox.svg" width="100%" alt="Tools by area: Figma; TypeScript, React, Next.js, Flutter; Node.js, .NET, PostgreSQL; Rust, Go, Python, Git">
 
-### Tavuk da Tavuk
-Corporate website and QR menu platform developed for a restaurant business.
+### Open source
 
-Responsible for the design and development process, including responsive UI/UX and implementation.
+I also fix bugs in the tools developers use every day. These cards rebuild themselves from the GitHub API every few hours.
 
-`Web Development` `UI/UX` `Responsive Design`
+<img src="assets/open-source.svg" width="100%" alt="Merged pull requests in open-source projects, and the projects I merged most into">
 
-### Eyfel
-A restaurant and courier operations platform designed to integrate order and delivery processes with online platforms.
+<details>
+<summary><b>Latest merge in each project</b></summary>
+<br>
+<img src="assets/latest-merges.svg" width="100%" alt="Latest merged pull request in my most starred projects">
+</details>
 
-Worked across product structure, project management, user experience and development processes.
+<details>
+<summary><b>Highlights</b></summary>
+<br>
 
-`Product Management` `Project Management` `UI/UX` `Software`
+| Project | Contribution |
+| --- | --- |
+| [Grafana](https://github.com/grafana/grafana) | Kept trace resources apart when exporting a trace as OTLP JSON |
+| [Nuxt](https://github.com/nuxt/nuxt) | Fixed the scroll offset for anchors whose IDs start with a number |
+| [Gitea](https://github.com/go-gitea/gitea) | Commit-to-user matching with empty emails; inline math parsing |
+| [uutils coreutils](https://github.com/uutils/coreutils) | GNU-compatibility fixes in Rust across `sort`, `od`, `ls`, `cut`, `join`, `split` and more |
+| [oxc](https://github.com/oxc-project/oxc) | ESLint rule fixes in the Rust linter |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js-contrib) | Recorded every GC entry in the Node runtime instrumentation |
+| [devenv](https://github.com/cachix/devenv) | Process startup, file watcher and `PATH` fixes; detach from the TUI with `q` |
+| [Harper](https://github.com/Automattic/harper) | New grammar rules for the Rust grammar checker |
+| [ts-proto](https://github.com/stephenh/ts-proto) | Features and fixes in the protobuf-to-TypeScript generator |
+| [repowise](https://github.com/repowise-dev/repowise) | Code analysis: type inference for C#, Kotlin and Swift, dead-code roots |
 
-## Currently
-
-I'm completing my final year in **Software Engineering at Fırat University** and developing my experience in product and project management for software products.
-
-I'm also interested in **data analysis, reporting and process automation**, particularly how data can support better product and business decisions.
-
-## Connect
-
-[LinkedIn](https://www.linkedin.com/in/yunus-ozen/)
+[All merged pull requests →](https://github.com/search?q=author%3Aozenyunus35+is%3Apr+is%3Amerged&type=pullrequests)
+</details>

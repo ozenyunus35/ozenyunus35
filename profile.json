@@ -1,0 +1,51 @@
+{
+  "_readme": "Products for the Selected work section, best first. The first four are shown. mockup: route, dashboard, pipeline, qr or app (a generic product preview).",
+  "products": [
+    {
+      "key": "bisevk",
+      "name": "Bi-Sevk",
+      "kind": "Logistics marketplace",
+      "period": "2025 – now",
+      "summary": ["Connects shippers with carriers, from posting", "a load to its delivery."],
+      "roles": ["Product", "Project", "UI/UX"],
+      "stack": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "mockup": "route",
+      "file": "shipments/route.tsx",
+      "link": "https://github.com/ozenyunus35/bisevk-case-study"
+    },
+    {
+      "key": "fmd",
+      "name": "FMD Eğitim Portalı",
+      "kind": "Education management panel",
+      "period": "2025",
+      "summary": ["Panel architecture, user flows and the interface", "system behind education operations."],
+      "roles": ["UI/UX", "Panel structure"],
+      "stack": ["Figma", "React"],
+      "mockup": "dashboard",
+      "file": "panel/overview.fig"
+    },
+    {
+      "key": "eyfel",
+      "name": "Eyfel Kurye",
+      "kind": "Restaurant & courier operations",
+      "period": "2024",
+      "summary": ["Orders from the online platforms to the kitchen", "and the courier, in one system."],
+      "roles": ["Product", "Project", "UX"],
+      "stack": ["React", "TypeScript", "REST"],
+      "mockup": "pipeline",
+      "file": "orders/flow.tsx"
+    },
+    {
+      "key": "tavuk",
+      "name": "Tavuk da Tavuk",
+      "kind": "Website & QR menu",
+      "period": "2026",
+      "summary": ["A responsive corporate site and a QR menu", "for guests at the table."],
+      "roles": ["Design", "Development"],
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "mockup": "qr",
+      "file": "menu/index.html",
+      "link": "https://github.com/ozenyunus35/tavuk-da-tavuk-case-study"
+    }
+  ]
+}
