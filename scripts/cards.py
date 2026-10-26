@@ -743,7 +743,7 @@ def impact(prs: list[PR], star_of: dict[str, int], logos: dict[str, str]) -> str
     """The open-source card: three numbers, the cumulative curve and the projects I merged most into."""
     per_repo = Counter(pr.repo for pr in prs)
     c = Card(1200, 520, f"{len(prs)} merged pull requests in {len(per_repo)} open-source projects")
-    c.header("open-source contributions", "synced daily", live=True)
+    c.header("open-source contributions", "synced hourly", live=True)
 
     figures = [("merged pull requests", str(len(prs))), ("projects", str(len(per_repo))),
                ("stars across projects", _k(sum(star_of.values())))]

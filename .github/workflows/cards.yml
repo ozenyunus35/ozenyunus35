@@ -2,7 +2,7 @@ name: Refresh profile cards
 
 on:
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -30,6 +30,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets README.md
+          git add assets
           git diff --cached --quiet || git commit -m "Refresh profile cards"
+          # Point the README at the commit that holds the cards: raw.githubusercontent.com
+          # caches branch URLs for hours in some regions, commit URLs never go stale.
+          sha=$(git log -1 --format=%H -- assets)
+          sed -i -E "s#src=\"(assets/|https://github\.com/${GITHUB_REPOSITORY}/raw/[0-9a-f]{40}/assets/)#src=\"https://github.com/${GITHUB_REPOSITORY}/raw/${sha}/assets/#g" README.md
+          git add README.md
+          git diff --cached --quiet || git commit -m "Point the README at the refreshed cards"
           git push
