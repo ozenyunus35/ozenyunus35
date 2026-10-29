@@ -42,9 +42,9 @@
       "period": "2026",
       "summary": ["A responsive corporate site and a QR menu", "for guests at the table."],
       "roles": ["Design", "Development"],
-      "stack": ["HTML", "CSS", "JavaScript"],
+      "stack": ["Next.js", "React", "Tailwind CSS"],
       "mockup": "qr",
-      "file": "menu/index.html",
+      "file": "menu/page.tsx",
       "link": "https://github.com/ozenyunus35/tavuk-da-tavuk-case-study"
     }
   ]
