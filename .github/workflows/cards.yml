@@ -1,8 +1,6 @@
 name: Refresh profile cards
 
 on:
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
