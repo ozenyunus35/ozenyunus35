@@ -37,7 +37,7 @@ LOCATION = "İzmir, Türkiye"
 PILLARS = [
     ("spark", "AI", "LLM apps · agents · automation"),
     ("target", "Product", "strategy · requirements · UX"),
-    ("code", "Engineering", "web · mobile · backend"),
+    ("code", "Engineering", "web · mobile · open source"),
 ]
 @dataclass(frozen=True)
 class Product:
@@ -67,7 +67,7 @@ TOOLBOX = [
     ("Product & design", ["figma"], ["Requirements", "User flows", "Agile"]),
     ("Frontend & mobile", ["ts", "react", "nextjs", "flutter"], []),
     ("Backend & data", ["nodejs", "dotnet", "postgres"], ["REST APIs"]),
-    ("Languages & tools", ["rust", "go", "python", "git"], []),
+    ("Open source", ["rust", "go", "python", "git"], []),
 ]
 ICON_NAMES = {
     "figma": "Figma", "ts": "TypeScript", "react": "React", "nextjs": "Next.js",
@@ -266,7 +266,7 @@ def icons() -> dict[str, str]:
 # ---------------------------------------------------------------- hero
 
 
-def hero(products: int) -> str:
+def hero(products: int, projects: list[str]) -> str:
     """The first card: who I am, what I work on and the proof, with the network on the right."""
     css = (".node{animation:node 3s ease-in-out infinite}@keyframes node{0%,100%{opacity:.55}50%{opacity:1}}"
            ".ring{transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}"
@@ -358,7 +358,7 @@ def hero(products: int) -> str:
     c.add(f'<line x1="64" y1="{y + 124}" x2="1136" y2="{y + 124}" stroke="{P["line"]}"/>')
     proof = [("trophy", "1st place", "NASA Space Apps 2022"),
              ("layers", f"{products} products", "built and shipped"),
-             ("code", "Full-stack", "React · TypeScript · Node.js · Flutter")]
+             ("merge", "Open source", " · ".join(projects))]
     x, py = 64, y + 166
     for i, (icon, strong, rest) in enumerate(proof):
         color = P["gold"] if i == 0 else P["fg"]
@@ -871,13 +871,22 @@ def main() -> None:
 
     products = load_products(args.data)
     featured = products[:FEATURED]
-    cards = {"hero": hero(len(products)), "toolbox": toolbox(icons()), "award": award()}
+    prs = merged_prs()
+    per_repo = Counter(pr.repo for pr in prs)
+    star_of = {r: _get(f"https://api.github.com/repos/{r}")["stargazers_count"] for r in per_repo}
+    # the projects to name in the hero: widely used and merged into more than once weigh most
+    best_known = [r.split("/")[1] for r in sorted(per_repo, key=lambda r: -star_of[r] * per_repo[r] ** .5)[:4]]
+    top = [repo for repo, _ in per_repo.most_common(6)]
+    logos = {owner: avatar(owner) for owner in {repo.split("/")[0] for repo in top}}
+
+    cards = {"hero": hero(len(products), best_known), "toolbox": toolbox(icons()), "award": award(),
+             "open-source": impact(prs, star_of, logos), "latest-merges": gitlog(prs, star_of)}
     for i, prod in enumerate(featured, 1):
         cards[f"product-{prod.key}"] = product_card(i, prod)
     for name, svg in cards.items():
         (args.out / f"{name}.svg").write_text(svg, encoding="utf-8")
     update_readme(args.readme, featured)
-    print(f"{len(cards)} cards")
+    print(f"{len(cards)} cards, {len(prs)} merged PRs in {len(per_repo)} projects")
 
 
 if __name__ == "__main__":

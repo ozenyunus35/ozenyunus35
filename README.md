@@ -23,4 +23,36 @@ With team Innosoft I took 1st place in Elazığ at the 2022 NASA International S
 
 ### Toolbox
 
-<img src="https://github.com/ozenyunus35/ozenyunus35/raw/a7067392960c82d8c568925048aa28ee541b055c/assets/toolbox.svg" width="100%" alt="Tools by area: Figma; TypeScript, React, Next.js, Flutter; Node.js, .NET, PostgreSQL; Rust, Go, Python, Git">
+<img src="https://github.com/ozenyunus35/ozenyunus35/raw/26e5d11825c4cb8b90ec3daa643624f73b67198d/assets/toolbox.svg" width="100%" alt="Tools by area: Figma; TypeScript, React, Next.js, Flutter; Node.js, .NET, PostgreSQL; Rust, Go, Python, Git">
+
+### Open source
+
+I also fix bugs in the tools developers use every day. These cards rebuild themselves from the GitHub API every few hours.
+
+<img src="https://github.com/ozenyunus35/ozenyunus35/raw/26e5d11825c4cb8b90ec3daa643624f73b67198d/assets/open-source.svg" width="100%" alt="Merged pull requests in open-source projects, and the projects I merged most into">
+
+<details>
+<summary><b>Latest merge in each project</b></summary>
+<br>
+<img src="https://github.com/ozenyunus35/ozenyunus35/raw/26e5d11825c4cb8b90ec3daa643624f73b67198d/assets/latest-merges.svg" width="100%" alt="Latest merged pull request in my most starred projects">
+</details>
+
+<details>
+<summary><b>Highlights</b></summary>
+<br>
+
+| Project | Contribution |
+| --- | --- |
+| [Grafana](https://github.com/grafana/grafana) | Kept trace resources apart when exporting a trace as OTLP JSON |
+| [Nuxt](https://github.com/nuxt/nuxt) | Fixed the scroll offset for anchors whose IDs start with a number |
+| [Gitea](https://github.com/go-gitea/gitea) | Commit-to-user matching with empty emails; inline math parsing |
+| [uutils coreutils](https://github.com/uutils/coreutils) | GNU-compatibility fixes in Rust across `sort`, `od`, `ls`, `cut`, `join`, `split` and more |
+| [oxc](https://github.com/oxc-project/oxc) | ESLint rule fixes in the Rust linter |
+| [OpenTelemetry JS](https://github.com/open-telemetry/opentelemetry-js-contrib) | Recorded every GC entry in the Node runtime instrumentation |
+| [devenv](https://github.com/cachix/devenv) | Process startup, file watcher and `PATH` fixes; detach from the TUI with `q` |
+| [Harper](https://github.com/Automattic/harper) | New grammar rules for the Rust grammar checker |
+| [ts-proto](https://github.com/stephenh/ts-proto) | Features and fixes in the protobuf-to-TypeScript generator |
+| [repowise](https://github.com/repowise-dev/repowise) | Code analysis: type inference for C#, Kotlin and Swift, dead-code roots |
+
+[All merged pull requests →](https://github.com/search?q=author%3Aozenyunus35+is%3Apr+is%3Amerged&type=pullrequests)
+</details>
