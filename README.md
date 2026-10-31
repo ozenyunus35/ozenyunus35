@@ -23,7 +23,7 @@ With team Innosoft I took 1st place in Elazığ at the 2022 NASA International S
 
 ### Toolbox
 
-<img src="https://github.com/ozenyunus35/ozenyunus35/raw/a1c5b5a6ddda73408441c100c49aba85906c30f8/assets/toolbox.svg" width="100%" alt="Tools by area: Figma; TypeScript, React, Next.js, Flutter; Node.js, .NET, PostgreSQL; Rust, Go, Python, Git">
+<img src="https://github.com/ozenyunus35/ozenyunus35/raw/770f0a2fb0f55f45cba63b4879e228a49b6f28c0/assets/toolbox.svg" width="100%" alt="Tools by area: Figma; TypeScript, React, Next.js, Flutter; Node.js, Supabase, PostgreSQL; Rust, Go, Python, Git">
 
 ### Open source
 
