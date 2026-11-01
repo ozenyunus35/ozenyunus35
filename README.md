@@ -15,6 +15,20 @@ I'm an AI product engineer based in İzmir. I build software products end to end
 </p>
 <!-- selected-work:end -->
 
+### Live demos
+
+Products I built end to end. Each one runs in the browser with synthetic data and ships with tests.
+
+| Project | What it does | Stack | Links |
+| --- | --- | --- | --- |
+| **Tally** | Reads invoices, receipts and bank statements in the browser: OCR, VAT and balance checks, payment matching, Excel export | TypeScript | [Demo](https://ozenyunus35.github.io/invoice-extractor/) · [Code](https://github.com/ozenyunus35/invoice-extractor) |
+| **Relay** | AI support assistant that answers from help articles with sources and hands off to a person when unsure | Next.js | [Demo](https://ozenyunus35.github.io/ai-support-assistant/) · [Code](https://github.com/ozenyunus35/ai-support-assistant) |
+| **Atlas Portal** | Admin dashboard and client file portal with roles, quotas, share links and an activity log | Next.js | [Demo](https://ozenyunus35.github.io/admin-file-portal/) · [Code](https://github.com/ozenyunus35/admin-file-portal) |
+| **Cadence** | Salon booking page with real-time availability and a drag-to-reschedule staff calendar | Next.js | [Demo](https://ozenyunus35.github.io/booking-scheduler/) · [Code](https://github.com/ozenyunus35/booking-scheduler) |
+| **Fieldline** | Field-service app for technicians with checklists, signatures, van stock and offline sync | Flutter | [Demo](https://ozenyunus35.github.io/field-service-app/) · [Code](https://github.com/ozenyunus35/field-service-app) |
+| **PDF to Excel** | Turns tables in PDF reports into clean, formatted Excel workbooks | TypeScript | [Demo](https://ozenyunus35.github.io/pdf-data-extractor/) · [Code](https://github.com/ozenyunus35/pdf-data-extractor) |
+| **Lead Scraper** | Daily crawler that turns a business directory into a clean Excel lead list | Python | [Demo](https://ozenyunus35.github.io/lead-scraper/) · [Code](https://github.com/ozenyunus35/lead-scraper) |
+
 ### Recognition
 
 <a href="https://github.com/ozenyunus35/WINK-TO-THE-FUTURE-INNOSOFT"><img src="https://github.com/ozenyunus35/ozenyunus35/raw/815d1ef368c7f6b428ae9fa51088bf7e67cbe1d8/assets/award.svg" width="100%" alt="NASA International Space Apps Challenge 2022: 1st place, Elazığ"></a>
