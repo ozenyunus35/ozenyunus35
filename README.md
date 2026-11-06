@@ -21,6 +21,7 @@ Products I built end to end. Each one runs in the browser with synthetic data an
 
 | Project | What it does | Stack | Links |
 | --- | --- | --- | --- |
+| **Quarry** | Ask a database in English or Turkish and get readable SQL, charts and checks: its own text-to-SQL engine with SQLite in the browser | Next.js | [Demo](https://ozenyunus35.github.io/sql-copilot/) · [Code](https://github.com/ozenyunus35/sql-copilot) |
 | **Tally** | Reads invoices, receipts and bank statements in the browser: OCR, VAT and balance checks, payment matching, Excel export | TypeScript | [Demo](https://ozenyunus35.github.io/invoice-extractor/) · [Code](https://github.com/ozenyunus35/invoice-extractor) |
 | **Relay** | AI support assistant that answers from help articles with sources and hands off to a person when unsure | Next.js | [Demo](https://ozenyunus35.github.io/ai-support-assistant/) · [Code](https://github.com/ozenyunus35/ai-support-assistant) |
 | **Atlas Portal** | Admin dashboard and client file portal with roles, quotas, share links and an activity log | Next.js | [Demo](https://ozenyunus35.github.io/admin-file-portal/) · [Code](https://github.com/ozenyunus35/admin-file-portal) |
