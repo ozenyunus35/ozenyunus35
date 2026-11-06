@@ -21,6 +21,7 @@ Products I built end to end. Each one runs in the browser with synthetic data an
 
 | Project | What it does | Stack | Links |
 | --- | --- | --- | --- |
+| **Folio** | Double-entry bookkeeping in the browser: journal, ledger, statements, invoices, VAT, currency revaluation and year-end close, in the international or Turkish chart of accounts | Next.js | [Demo](https://ozenyunus35.github.io/double-entry-ledger/) · [Code](https://github.com/ozenyunus35/double-entry-ledger) |
 | **Quarry** | Ask a database in English or Turkish and get readable SQL, charts and checks: its own text-to-SQL engine with SQLite in the browser | Next.js | [Demo](https://ozenyunus35.github.io/sql-copilot/) · [Code](https://github.com/ozenyunus35/sql-copilot) |
 | **Tally** | Reads invoices, receipts and bank statements in the browser: OCR, VAT and balance checks, payment matching, Excel export | TypeScript | [Demo](https://ozenyunus35.github.io/invoice-extractor/) · [Code](https://github.com/ozenyunus35/invoice-extractor) |
 | **Relay** | AI support assistant that answers from help articles with sources and hands off to a person when unsure | Next.js | [Demo](https://ozenyunus35.github.io/ai-support-assistant/) · [Code](https://github.com/ozenyunus35/ai-support-assistant) |
