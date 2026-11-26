@@ -1,6 +1,6 @@
 <img src="https://github.com/ozenyunus35/ozenyunus35/raw/90fa4ba4a264c1c5cd32da533abd59c8dceeb86a/assets/hero.svg" width="100%" alt="Yunus Ozen, AI product engineer: AI, product and engineering">
 
-I'm an AI product engineer based in İzmir. I build software products end to end: I shape what a product should do, lead the team that builds it and write the code, with AI in every step. I'm finishing my Software Engineering degree at Fırat University. [Portfolio](https://ozenyunus35.github.io/yunus-ozen-portfolio/) · [LinkedIn](https://www.linkedin.com/in/yunus-ozen/)
+I'm an AI product engineer based in Antalya. I build software products end to end: I shape what a product should do, lead the team that builds it and write the code, with AI in every step. I'm finishing my Software Engineering degree at Fırat University. [Portfolio](https://ozenyunus35.github.io/yunus-ozen-portfolio/) · [LinkedIn](https://www.linkedin.com/in/yunus-ozen/)
 
 ### Selected work
 
@@ -21,6 +21,7 @@ Products I built end to end. Each one runs in the browser with synthetic data an
 
 | Project | What it does | Stack | Links |
 | --- | --- | --- | --- |
+| **Telve** | Coffee e-commerce store with filters, cart and checkout, a wholesale quote form and an admin panel for orders, products, campaigns and site content | HTML, CSS, JavaScript | [Demo](https://ozenyunus35.github.io/yunus-ozen-portfolio/demos/telve-kahve/) · [Code](https://github.com/ozenyunus35/yunus-ozen-portfolio/tree/main/public/demos/telve-kahve) |
 | **Folio** | Double-entry bookkeeping in the browser: journal, ledger, statements, invoices, VAT, currency revaluation and year-end close, in the international or Turkish chart of accounts | Next.js | [Demo](https://ozenyunus35.github.io/double-entry-ledger/) · [Code](https://github.com/ozenyunus35/double-entry-ledger) |
 | **Quarry** | Ask a database in English or Turkish and get readable SQL, charts and checks: its own text-to-SQL engine with SQLite in the browser | Next.js | [Demo](https://ozenyunus35.github.io/sql-copilot/) · [Code](https://github.com/ozenyunus35/sql-copilot) |
 | **Tally** | Reads invoices, receipts and bank statements in the browser: OCR, VAT and balance checks, payment matching, Excel export | TypeScript | [Demo](https://ozenyunus35.github.io/invoice-extractor/) · [Code](https://github.com/ozenyunus35/invoice-extractor) |
